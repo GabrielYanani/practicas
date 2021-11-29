@@ -5,7 +5,7 @@ import 'cliente_dart.dart';
 void main() {
   print("BANCO VIRTUAL");
   print("BIENVENIDO!!!");
- print("-----------------------------------hola gaby");
+ print("-----------------------------------");
 
 
   RecursosHumanos emple1 = RecursosHumanos(
