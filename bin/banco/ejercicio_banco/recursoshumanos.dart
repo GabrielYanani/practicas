@@ -2,14 +2,14 @@ import 'usuarios.dart';
 
 class RecursosHumanos extends Banco {
   List<String> listaDeEmpleados = [];
-  int cantidadDeEmpleados = 0;
+  
 
   RecursosHumanos(
     final String _usuario,
     final String nombreYApellido,
     final int _id,
     this.listaDeEmpleados,
-    this.cantidadDeEmpleados,
+    
   ) : super(
           _usuario,
           nombreYApellido,
@@ -19,7 +19,7 @@ class RecursosHumanos extends Banco {
   cuantosEmpleados() {
     print("----------------------------------------");
     print("Cantidad de empleados activos al dia de la fecha:");
-    cantidadDeEmpleados = listaDeEmpleados.length;
+    var cantidadDeEmpleados = listaDeEmpleados.length;
     print(cantidadDeEmpleados);
   }
 

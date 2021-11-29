@@ -6,8 +6,12 @@ void main() {
   print("BANCO VIRTUAL");
   print("BIENVENIDO!!!");
 
-  RecursosHumanos emple1 =
-      RecursosHumanos("RECURSOS HUMANOS", "Ezequiel Levi", 92653784, [], 0);
+  RecursosHumanos emple1 = RecursosHumanos(
+    "RECURSOS HUMANOS",
+    "Ezequiel Levi",
+    92653784,
+    [],
+  );
   emple1.saludar();
   emple1.mostrarDatos();
 
