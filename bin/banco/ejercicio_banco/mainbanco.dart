@@ -5,8 +5,7 @@ import 'cliente_dart.dart';
 void main() {
   print("BANCO VIRTUAL");
   print("BIENVENIDO!!!");
- print("-----------------------------------");
-
+  print("-----------------------------------");
 
   RecursosHumanos emple1 = RecursosHumanos(
     "RECURSOS HUMANOS",
@@ -64,6 +63,7 @@ void main() {
   cajero1.adelanto(25000);
   cajero1.adelanto(35000);
   cajero1.adelanto(35000);
+  cajero1.extra(33);
 
   cajero1.mostrarDatos();
 }

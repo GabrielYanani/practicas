@@ -33,10 +33,3 @@ abstract class Banco {
 
 
 
-  // Cliente.dani(
-  //   int numeroDeCuenta,double saldoEnCuenta,double porcetanjeTzedaka, double tzedaka, this.titular ) { 
-  //   this. numeroDeCuenta = numeroDeCuenta;
-  //   this.saldoEnCuenta = saldoEnCuenta;
-  //   this.porcetanjeTzedaka = porcetanjeTzedaka;
-  //   this.tzedaka = tzedaka;
-  // }

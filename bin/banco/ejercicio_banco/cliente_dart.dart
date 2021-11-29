@@ -19,25 +19,25 @@ Cliente(
         );
 
   maaserCliente() {
-    tzedaka = this.saldoEnCuenta * this.porcetanjeTzedaka/100;
+    tzedaka = saldoEnCuenta * porcetanjeTzedaka/100;
   }
 
   cargarSaldo(double nuevoSaldo) {
     if (nuevoSaldo > 0) {
-      this.saldoEnCuenta += nuevoSaldo;
+      saldoEnCuenta += nuevoSaldo;
     }
   }
 
   restarSaldo(double nuevoSaldo) {
     if (nuevoSaldo > 0) {
-      this.saldoEnCuenta -= nuevoSaldo;
+      saldoEnCuenta -= nuevoSaldo;
     }
   }
   
   @override
   mostrarDatos() {print("---------------------");
     print(
-        "$claseDeUsuario\nNombre y Apellido:$nombreYApellido\nID: $id\nSaldo en Cuenta: $saldoEnCuenta\nPorcentaje para Tzedaka: $porcetanjeTzedaka%\nTzedaka: $tzedaka");
+        "$claseDeUsuario\nNombre y Apellido:$nombreYApellido\nID: $id\nSaldo en Cuenta: \$$saldoEnCuenta\nPorcentaje para Tzedaka: $porcetanjeTzedaka%\nTzedaka: \$$tzedaka");
   }
 
 }

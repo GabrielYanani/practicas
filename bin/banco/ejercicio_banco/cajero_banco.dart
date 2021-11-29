@@ -24,7 +24,7 @@ class Cajero extends Banco {
   mostrarDatos() {
     print("---------------------");
     print(
-        "$claseDeUsuario\nNombre y Apellido:$nombreYApellido\nID: $id\nNumero de caja: $numeroDeCaja\nHorario de trabajo: $horarioDeTrabajo\nSueldo a cobrar: $sueldo\nSueldo adelantado: $totalAdelanto");
+        "$claseDeUsuario\nNombre y Apellido:$nombreYApellido\nID: $id\nNumero de caja: $numeroDeCaja\nHorario de trabajo: $horarioDeTrabajo\nSueldo a cobrar: \$$sueldo\nSueldo adelantado: \$$totalAdelanto");
   }
 
   adelanto(double nuevoAdelanto) {
