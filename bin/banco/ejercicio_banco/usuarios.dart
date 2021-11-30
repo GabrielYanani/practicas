@@ -1,9 +1,9 @@
-abstract class Banco {
+abstract class UsuarioDelBanco {
   final String claseDeUsuario;
   final String nombreYApellido;
   final int id;
 
-  Banco(
+  UsuarioDelBanco(
     this.claseDeUsuario,
     this.nombreYApellido,
     this.id,

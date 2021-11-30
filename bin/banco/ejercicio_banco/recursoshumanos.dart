@@ -1,6 +1,6 @@
 import 'usuarios.dart';
 
-class RecursosHumanos extends Banco {
+class RecursosHumanos extends UsuarioDelBanco {
   List<String> listaDeEmpleados = [];
   
 

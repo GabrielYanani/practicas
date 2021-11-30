@@ -1,6 +1,6 @@
 import 'usuarios.dart';
 
-class Cajero extends Banco {
+class Cajero extends UsuarioDelBanco {
   int numeroDeCaja;
   String horarioDeTrabajo;
   double sueldo;

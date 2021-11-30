@@ -1,7 +1,7 @@
 
 import 'usuarios.dart';
 
-class Cliente extends Banco {
+class Cliente extends UsuarioDelBanco {
   double saldoEnCuenta;
   double porcetanjeTzedaka;
   double tzedaka;
